@@ -38,7 +38,7 @@
         flex-direction: column;
         align-items: center;
         /* 48px - 64px */
-        gap: clamp(3rem, 6vw, 4rem);
+        /* gap: clamp(3rem, 6vw, 4rem); */
         position: relative;
     }
     #services-1191 .cs-image {
@@ -157,12 +157,12 @@
         align-items: flex-start;
     }
     #services-1191 .cs-image {
-        max-height: 28.125rem;
+        max-height: 21.125rem;
     }
     #services-1191 .cs-image img {
         width: 100%;
         height: auto;
-        max-height: 28.125rem;
+        max-height: 21.125rem;
         object-fit: contain;
     }
 }
@@ -180,10 +180,12 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        max-height: 19.125rem;
     }
     #services-1191 .cs-image img {
         width: auto;
         height: auto;
+        max-height: 19.125rem;
     }
     #services-1191 .cs-card-group {
         align-items: flex-start;
@@ -213,6 +215,33 @@
     #services-1191 .cs-item:nth-of-type(4) {
         /* 90px - 1280px */
         right: calc(clamp(5.625rem, 8vw, 8rem) * -1);
+    }
+}
+/* Desktop - 1200px */
+@media only screen and (min-width: 1200px) {
+    #services-1191 .cs-image {
+        max-height: 22.125rem;
+    }
+    #services-1191 .cs-image img {
+        max-height: 22.125rem;
+    }
+}
+/* Desktop - 1400px */
+@media only screen and (min-width: 1400px) {
+    #services-1191 .cs-image {
+        max-height: 25.125rem;
+    }
+    #services-1191 .cs-image img {
+        max-height: 25.125rem;
+    }
+}
+/* Desktop - 1600px */
+@media only screen and (min-width: 1600px) {
+    #services-1191 .cs-image {
+        max-height: 29.125rem;
+    }
+    #services-1191 .cs-image img {
+        max-height: 29.125rem;
     }
 }
 /* Dark Mode */

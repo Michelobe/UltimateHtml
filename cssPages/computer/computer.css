@@ -274,7 +274,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #RTsbs-1219 .cs-container {
+  #RTsbsr-1219 .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
@@ -284,7 +284,7 @@
     /* 48px - 64px */
     /* gap: clamp(3rem, 6vw, 4rem); */
   }
-  #RTsbs-1219 .cs-content {
+  #RTsbsr-1219 .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: left;
     width: 100%;
@@ -293,30 +293,30 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: flex-start;
   }
-  #RTsbs-1219 .cs-table {
+  #RTsbsr-1219 .cs-table {
     width: 100%;
     border-collapse: collapse;
   }
-  #RTsbs-1219 .cs-th {
+  #RTsbsr-1219 .cs-th {
     padding: 0 1rem;
     box-sizing: border-box;
 	width: 34.33%;
   }
-  #RTsbs-1219 .cs-td {
+  #RTsbsr-1219 .cs-td {
     padding: .25rem;
     box-sizing: border-box;
   }
-  #RTsbs-1219 .cs-th,
-  #RTsbs-1219 .cs-td {
+  #RTsbsr-1219 .cs-th,
+  #RTsbsr-1219 .cs-td {
     border: 1px solid #ddd;
     text-align: center;
   }
-  #RTsbs-1219 .cs-color .cs-th:first-child {
+  #RTsbsr-1219 .cs-color .cs-th:first-child {
     color: #fff;
     background-color: var(--primary);
   }
-  #RTsbs-1219 .cs-th:first-child,
-  #RTsbs-1219 .cs-td:first-child {
+  #RTsbsr-1219 .cs-th:first-child,
+  #RTsbsr-1219 .cs-td:first-child {
     position: sticky;
     left: 0;
     z-index: 100;
@@ -325,30 +325,24 @@
     border: 1px solid #ddd;
     text-align: left;
   }
-  #RTsbs-1219 .cs-th {
+  #RTsbsr-1219 .cs-th {
     background-color: #f2f2f2;
   }
-  #RTsbs-1219 .cs-tr {
+  #RTsbsr-1219 .cs-tr {
     color: var(--bodyTextColor);
   }
-  #RTsbs-1219 .cs-icon {
+  #RTsbsr-1219 .cs-icon {
     height: 1rem;
     width: auto;
   }
 }
 /* Tablet - 600px */
 @media screen and (max-width: 37.5rem) {
-  #RTsbs-1219 .cs-table {
+  #RTsbsr-1219 .cs-table {
     display: block;
     overflow-x: auto;
   }
 }
-
-
-
-
-
-
 
 
 
@@ -557,14 +551,14 @@
       bottom: 0;
       z-index: 10;
   }
-  #RTsbs-1219 .cs-icon {
+  #RTsbsr-1219 .cs-icon {
       /* 40px - 60px */
       width: 140px;
       height: 120px;
       margin-right: 0;
       display: block;
   }
-  #RTsbsr-1219 .cs-icon,
+  #RTsbs-1219 .cs-icon,
   #RTsbst-1219 .cs-icon {
       /* 40px - 60px */
       width: clamp(2.5rem, 4vw, 3.75rem);

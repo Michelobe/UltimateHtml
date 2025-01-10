@@ -275,7 +275,8 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #RTsbsr-1219 .cs-container,
-  #RTsbs-1219 .cs-container {
+  #RTsbs-1219 .cs-container,
+  #RTsbs-1219-graph .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
@@ -286,7 +287,8 @@
     /* gap: clamp(3rem, 6vw, 4rem); */
   }
   #RTsbsr-1219 .cs-content,
-  #RTsbs-1219 .cs-content {
+  #RTsbs-1219 .cs-content,
+  #RTsbs-1219-graph .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: left;
     width: 100%;
@@ -296,37 +298,45 @@
     align-items: flex-start;
   }
   #RTsbsr-1219 .cs-table,
-  #RTsbs-1219 .cs-table {
+  #RTsbs-1219 .cs-table,
+  #RTsbs-1219-graph .cs-table {
     width: 100%;
     border-collapse: collapse;
   }
   #RTsbsr-1219 .cs-th,
-  #RTsbs-1219 .cs-th {
+  #RTsbs-1219 .cs-th,
+  #RTsbs-1219-graph .cs-th {
     padding: 0 1rem;
     box-sizing: border-box;
 	width: 34.33%;
   }
   #RTsbsr-1219 .cs-td,
-  #RTsbs-1219 .cs-td {
+  #RTsbs-1219 .cs-td,
+  #RTsbs-1219-graph .cs-td {
     padding: .25rem;
     box-sizing: border-box;
   }
   #RTsbsr-1219 .cs-th,
   #RTsbs-1219 .cs-th,
+  #RTsbs-1219-graph .cs-th,
   #RTsbsr-1219 .cs-td,
-  #RTsbs-1219 .cs-td {
+  #RTsbs-1219 .cs-td,
+  #RTsbs-1219-graph .cs-td {
     border: 1px solid #ddd;
     text-align: center;
   }
   #RTsbsr-1219 .cs-color .cs-th:first-child,
-  #RTsbs-1219 .cs-color .cs-th:first-child {
+  #RTsbs-1219 .cs-color .cs-th:first-child,
+  #RTsbs-1219-graph .cs-color .cs-th:first-child {
     color: #fff;
     background-color: var(--primary);
   }
   #RTsbsr-1219 .cs-th:first-child,
   #RTsbs-1219 .cs-th:first-child,
+  #RTsbs-1219-graph .cs-th:first-child,
   #RTsbsr-1219 .cs-td:first-child,
-  #RTsbs-1219 .cs-td:first-child {
+  #RTsbs-1219 .cs-td:first-child,
+  #RTsbs-1219-graph .cs-td:first-child {
     position: sticky;
     left: 0;
     z-index: 100;
@@ -336,15 +346,18 @@
     text-align: left;
   }
   #RTsbsr-1219 .cs-th,
-  #RTsbs-1219 .cs-th {
+  #RTsbs-1219 .cs-th,
+  #RTsbs-1219-graph .cs-th {
     background-color: #f2f2f2;
   }
   #RTsbsr-1219 .cs-tr,
-  #RTsbs-1219 .cs-tr {
+  #RTsbs-1219 .cs-tr,
+  #RTsbs-1219-graph .cs-tr {
     color: var(--bodyTextColor);
   }
   #RTsbsr-1219 .cs-icon,
-  #RTsbs-1219 .cs-icon {
+  #RTsbs-1219 .cs-icon,
+  #RTsbs-1219-graph .cs-icon {
     height: 1rem;
     width: auto;
   }
@@ -352,7 +365,8 @@
 /* Tablet - 600px */
 @media screen and (max-width: 37.5rem) {
   #RTsbsr-1219 .cs-table,
-  #RTsbs-1219 .cs-table {
+  #RTsbs-1219 .cs-table,
+  #RTsbs-1219-graph .cs-table {
     display: block;
     overflow-x: auto;
   }
@@ -369,12 +383,14 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #RTsbs-1219,
-  #RTsbsr-1219{
+  #RTsbsr-1219,
+  #RTsbs-1219-graph {
       padding: var(--sectionPadding);
       overflow: hidden;
   }
   #RTsbs-1219 .cs-container,
-  #RTsbsr-1219 .cs-container{
+  #RTsbsr-1219 .cs-container,
+  #RTsbs-1219-graph .cs-container {
       width: 100%;
       /* changes to 1280px at desktop */
       max-width: 34.375rem;
@@ -386,7 +402,8 @@
       gap: clamp(3rem, 4vw, 4rem);
   }
   #RTsbs-1219 .cs-content,
-  #RTsbsr-1219 .cs-content {
+  #RTsbsr-1219 .cs-content,
+  #RTsbs-1219-graph .cs-content {
       /* set text align to left if content needs to be left aligned */
       text-align: left;
       width: 100%;
@@ -400,15 +417,18 @@
   }
 
   #RTsbs-1219 .cs-text,
-  #RTsbsr-1219 .cs-text {
+  #RTsbsr-1219 .cs-text,
+  #RTsbs-1219-graph .cs-text {
       margin-bottom: 1rem;
   }
   #RTsbs-1219 .cs-text:last-of-type,
-  #RTsbsr-1219 .cs-text:last-of-type {
+  #RTsbsr-1219 .cs-text:last-of-type,
+  #RTsbs-1219-graph .cs-text:last-of-type {
       margin-bottom: 2rem;
   }
   #RTsbs-1219 .cs-button-solid,
-  #RTsbsr-1219 .cs-button-solid{
+  #RTsbsr-1219 .cs-button-solid,
+  #RTsbs-1219-graph .cs-button-solid {
       font-size: 1rem;
       /* 46px - 56px */
       line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -428,7 +448,8 @@
       transition: color 0.3s;
   }
   #RTsbs-1219 .cs-button-solid:before,
-  #RTsbsr-1219 .cs-button-solid:before {
+  #RTsbsr-1219 .cs-button-solid:before,
+  #RTsbs-1219-graph .cs-button-solid:before {
       content: "";
       position: absolute;
       height: 100%;
@@ -441,15 +462,18 @@
       transition: width 0.3s;
   }
   #RTsbs-1219 .cs-button-solid:hover,
-  #RTsbsr-1219 .cs-button-solid:hover {
+  #RTsbsr-1219 .cs-button-solid:hover,
+  #RTsbs-1219-graph .cs-button-solid:hover {
       color: #fff;
   }
   #RTsbs-1219 .cs-button-solid:hover:before,
-  #RTsbsr-1219 .cs-button-solid:hover:before {
+  #RTsbsr-1219 .cs-button-solid:hover:before,
+  #RTsbs-1219-graph .cs-button-solid:hover:before {
       width: 100%;
   }
   #RTsbs-1219 .cs-content-flair,
-  #RTsbsr-1219 .cs-content-flair{
+  #RTsbsr-1219 .cs-content-flair,
+  #RTsbs-1219-graph .cs-content-flair {
       width: 100%;
       margin: 0 0 2rem;
       display: flex;
@@ -457,7 +481,8 @@
       gap: 1.25rem;
   }
   #RTsbs-1219 .cs-bar,
-  #RTsbsr-1219 .cs-bar {
+  #RTsbsr-1219 .cs-bar,
+  #RTsbs-1219-graph .cs-bar {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -466,7 +491,8 @@
       gap: 0.5rem;
   }
   #RTsbs-1219 .cs-h3,
-  #RTsbsr-1219 .cs-h3 {
+  #RTsbsr-1219 .cs-h3,
+  #RTsbs-1219-graph .cs-h3 {
       font-size: 1rem;
       line-height: 1.2em;
       font-weight: 700;
@@ -478,21 +504,24 @@
       align-items: center;
   }
   #RTsbs-1219 .cs-progress,
-  #RTsbsr-1219 .cs-progress {
+  #RTsbsr-1219 .cs-progress,
+  #RTsbs-1219-graph .cs-progress {
       width: 100%;
       height: 8px;
       overflow: hidden;
       background-color: #e8e8e8;
   }
   #RTsbs-1219 .cs-progress-bar,
-  #RTsbsr-1219 .cs-progress-bar{
+  #RTsbsr-1219 .cs-progress-bar,
+  #RTsbs-1219-graph .cs-progress-bar {
       width: var(--progress);
       height: 100%;
       background-color: var(--primary);
       display: block;
   }
   #RTsbs-1219 .cs-percentage,
-  #RTsbsr-1219 .cs-percentage {
+  #RTsbsr-1219 .cs-percentage,
+  #RTsbs-1219-graph .cs-percentage {
       font-size: 0.875rem;
       line-height: 1.2em;
       font-weight: 700;
@@ -501,7 +530,8 @@
       display: block;
   }
   #RTsbs-1219 .cs-image-group,
-  #RTsbsr-1219 .cs-image-group {
+  #RTsbsr-1219 .cs-image-group,
+  #RTsbs-1219-graph .cs-image-group {
       width: 100%;
       max-width: 34.375rem;
       position: relative;
@@ -511,7 +541,8 @@
       z-index: 1;
   }
   #RTsbs-1219 .cs-picture,
-  #RTsbsr-1219 .cs-picture {
+  #RTsbsr-1219 .cs-picture,
+  #RTsbs-1219-graph .cs-picture {
       /* big background image */
       width: 93%;
       height: 93%;
@@ -521,7 +552,8 @@
       display: block;
   }
   #RTsbs-1219 .cs-picture img,
-  #RTsbsr-1219 .cs-picture img {
+  #RTsbsr-1219 .cs-picture img,
+  #RTsbs-1219-graph .cs-picture img {
       position: absolute;
       top: 0;
       left: 0;
@@ -529,7 +561,8 @@
       width: 100%;
       object-fit: cover;
   }
-  #RTsbs-1219 .cs-box{
+  #RTsbs-1219 .cs-box,
+  #RTsbs-1219-graph .cs-box{
       text-align: center;
       width: auto;
       /* 16px - 40px */
@@ -568,7 +601,8 @@
       margin-right: 0;
       display: block;
   }
-  #RTsbs-1219 .cs-icon {
+  #RTsbs-1219 .cs-icon,
+  #RTsbs-1219-graph .cs-icon {
       /* 40px - 60px */
       width: 200px;
       height: auto;
@@ -576,7 +610,8 @@
       display: block;
   }
   #RTsbs-1219 .cs-number,
-  #RTsbsr-1219 .cs-number{
+  #RTsbsr-1219 .cs-number,
+  #RTsbs-1219-graph .cs-number {
       /* 25px - 39px */
       font-size: clamp(1.5625rem, 3vw, 2.4375rem);
       line-height: 1.2em;
@@ -587,7 +622,8 @@
       z-index: 10;
   }
   #RTsbs-1219 .cs-desc,
-  #RTsbsr-1219 .cs-desc {
+  #RTsbsr-1219 .cs-desc,
+  #RTsbs-1219-graph .cs-desc {
       /* 14px - 16px */
       font-size: clamp(0.875rem, 1.5vw, 1rem);
       line-height: 1.5em;
@@ -598,7 +634,8 @@
       z-index: 10;
   }
   #RTsbs-1219 .cs-graphic,
-  #RTsbsr-1219 .cs-graphic {
+  #RTsbsr-1219 .cs-graphic,
+  #RTsbs-1219-graph .cs-graphic {
       width: 150%;
       height: auto;
       position: absolute;
@@ -611,7 +648,8 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #RTsbs-1219 .cs-container,
-  #RTsbsr-1219 .cs-container {
+  #RTsbsr-1219 .cs-container,
+  #RTsbs-1219-graph .cs-container {
       max-width: 80rem;
       /* set to horizontal arrangement */
       flex-direction: row;
@@ -619,12 +657,14 @@
       align-items: stretch;
   }
   #RTsbs-1219 .cs-content,
-  #RTsbsr-1219 .cs-content {
+  #RTsbsr-1219 .cs-content,
+  #RTsbs-1219-graph .cs-content {
       width: 47%;
       align-self: center;
   }
   #RTsbs-1219 .cs-image-group,
-  #RTsbsr-1219 .cs-image-group {
+  #RTsbsr-1219 .cs-image-group,
+  #RTsbs-1219-graph .cs-image-group {
       width: 43vw;
       max-width: 35rem;
       min-height: 25rem;
@@ -632,19 +672,22 @@
       margin: 0 4.5rem 0 0;
   }
   #RTsbs-1219 .cs-picture,
-  #RTsbsr-1219 .cs-picture {
+  #RTsbsr-1219 .cs-picture,
+  #RTsbs-1219-graph .cs-picture {
       width: 100%;
       height: 100%;
   }
   #RTsbs-1219 .cs-box,
-  #RTsbsr-1219 .cs-box{
+  #RTsbsr-1219 .cs-box,
+  #RTsbs-1219-graph .cs-box {
       bottom: 2.5rem;
       left: auto;
       /* -40px to -108px */
       right: calc(clamp(2.5rem, 6vw + 1rem, 6.75rem) * -1);
   }
   #RTsbs-1219 .cs-graphic,
-  #RTsbsr-1219 .cs-graphic {
+  #RTsbsr-1219 .cs-graphic,
+  #RTsbs-1219-graph .cs-graphic {
       max-width: 44.6875rem;
       left: auto;
       right: 8.125rem;

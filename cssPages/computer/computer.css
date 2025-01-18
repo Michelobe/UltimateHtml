@@ -198,7 +198,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #table-1669 {
-      padding: var(--sectionPadding);
+      padding:  2rem 1rem;
     }
     #table-1669 .cs-container {
       width: 100%;
